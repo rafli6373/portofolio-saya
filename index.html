@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio talwind css</title>
+  <link rel="stylesheet" href="src/output.css">
+</head>
+<body>
+    <!-- header start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div>
+                    <div class="px-4">
+                        <a href="#home" class="font-mono text-lg text-primary block py-6">Rafli Hasyim</a>
+                    </div>
+                    <div class="flex items-center px-4">   
+                        <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden mb-20">
+                            <span class="w-[30px] h-[2px] my-2 block bg-dark transition duration-300 ease-in-out origin-top-left"></span>
+                            <span class="w-[30px] h-[2px] my-2 block bg-dark transition duration-300 ease-in-out"></span>
+                            <span class="w-[30px] h-[2px] my-2 block bg-dark transition duration-300 ease-in-out origin-bottom-left"></span>
+                        </button>    
+                        <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none justify-between items-center">
+                            <ul class="block lg:flex">
+                                <li class="group">
+                                <a href="#tentang" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Tentang Saya</a>
+                            </li>
+                            <li class="group">
+                            <a href="#tentang" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portofolio</a>
+                            </li>
+                            <li class="group">
+                            <a href="#tentang" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">bot whatsapp</a>
+                            </li>
+                            <li class="group">
+                            <a href="#tentang" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">blog</a>
+                            </li>
+                            <li class="group">
+                            <a href="#tentang" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">kontak</a>
+                            </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- hero section start -->
+    <section id="home" class="pt-36"></section>
+    <div class="container">
+        <div class="flex flex-wrap">
+            <div class="w-full self-center px-4 lg:w-1/2">
+                <h1 class="text-base font-semibold text-primary md:text-xl ">Halo Semua ✋🏻, Perkenalkan Saya 
+                    <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl mb-1"> Rafli Hasyim</span></h1>
+                <h2 class="font-medium text-secondary text-lg mb-3 lg:text-2xl">Kreator Bot Whatsapp & 
+                    <span class="text-dark">Web Developer</span></h2>
+                <p class="font-medium text-secondary mb-10 leading-relaxed">Web ini akan memperkenalkan diri saya sebagai kreator 
+                    <span class="text-dark font-bold">bot whatsapp & Web developer</span> </p>
+
+                    <a href="https://wa.me/6289503961875?text=halo+kak" target="_blank" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover: shadow-lg hover:bg-sky-400 transition duration-300 ease-in-out">Hubungi Saya</a>
+            </div>
+            <div class="w-full self-end px-4 lg:w-1/2">
+                <div class="relative mt-10 lg:mt-9 lg:right-0">
+                    <img src="src/image.png" alt="foto saya" class="max-w-full mx-auto">
+                    <span class="absolute bottom-20 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
+                        <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#0284C7" d="M53.6,-48.1C68.3,-38.8,78.4,-19.4,72.6,-5.8C66.8,7.9,45.2,15.7,30.5,22.3C15.7,28.9,7.9,34.3,-4.3,38.5C-16.4,42.8,-32.8,46,-48.7,39.4C-64.6,32.8,-80.1,16.4,-77.5,2.5C-75,-11.4,-54.6,-22.8,-38.7,-32C-22.8,-41.2,-11.4,-48.4,4,-52.4C19.4,-56.4,38.8,-57.3,53.6,-48.1Z" transform="translate(100 100) scale(1.1)" />
+                          </svg>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hero section end -->
+
+    <!-- about section start -->
+    <section id="tentang" class="pt-36 pb-32">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h4 class="font-bold text-primary text-lg mb-3">Tentang Saya</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">saya adalah seorang programmer pemula</h2>
+                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Saya seorang programmer pemula yang bersemangat dalam menggali dunia coding menggunakan HTML, CSS, dan JavaScript sebagai senjata utama. Melalui perjalanan saya, telah berhasil merampungkan proyek menarik seperti bot WhatsApp yang interaktif dan membuat beragam website yang memukau. Dengan semangat belajar yang tak pernah padam, saya terus mengasah keterampilan dan berkembang sebagai seorang developer. Siap untuk terus berkreasi dan memberikan yang terbaik dalam setiap proyek yang saya garap!</p>
+                </div>
+                <div class="w-full px-4 lg:w-1/2">
+                    <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-20">Mari Berteman</h3>
+                    <p class="font-medium text-base text-secondary mb-6 lg:text-lg">Hey teman-teman! Ayo berteman dan saling mengikuti di akun media sosial saya untuk tetap terhubung dan saling mendukung. Mari kita jalin komunitas yang positif dan inspiratif bersama. Follow akun saya sekarang dan mari kita berteman di dunia maya! 🌟 #BertemanDiMediaSosial #SupportEachOther</p>
+                    <div class="flex items-center">
+                        <!-- instagram -->
+                        <a href="https://instagram.com/rafli6373" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-secondary hover:border-primary hover:bg-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 102 102" id="instagram"><defs><radialGradient id="a" cx="6.601" cy="99.766" r="129.502" gradientUnits="userSpaceOnUse"><stop offset=".09" stop-color="#fa8f21"></stop><stop offset=".78" stop-color="#d82d7e"></stop></radialGradient><radialGradient id="b" cx="70.652" cy="96.49" r="113.963" gradientUnits="userSpaceOnUse"><stop offset=".64" stop-color="#8c3aaa" stop-opacity="0"></stop><stop offset="1" stop-color="#8c3aaa"></stop></radialGradient></defs><path fill="url(#a)" d="M25.865,101.639A34.341,34.341,0,0,1,14.312,99.5a19.329,19.329,0,0,1-7.154-4.653A19.181,19.181,0,0,1,2.5,87.694,34.341,34.341,0,0,1,.364,76.142C.061,69.584,0,67.617,0,51s.067-18.577.361-25.14A34.534,34.534,0,0,1,2.5,14.312,19.4,19.4,0,0,1,7.154,7.154,19.206,19.206,0,0,1,14.309,2.5,34.341,34.341,0,0,1,25.862.361C32.422.061,34.392,0,51,0s18.577.067,25.14.361A34.534,34.534,0,0,1,87.691,2.5a19.254,19.254,0,0,1,7.154,4.653A19.267,19.267,0,0,1,99.5,14.309a34.341,34.341,0,0,1,2.14,11.553c.3,6.563.361,8.528.361,25.14s-.061,18.577-.361,25.14A34.5,34.5,0,0,1,99.5,87.694,20.6,20.6,0,0,1,87.691,99.5a34.342,34.342,0,0,1-11.553,2.14c-6.557.3-8.528.361-25.14.361s-18.577-.058-25.134-.361" data-name="Path 16"></path><path fill="url(#b)" d="M25.865,101.639A34.341,34.341,0,0,1,14.312,99.5a19.329,19.329,0,0,1-7.154-4.653A19.181,19.181,0,0,1,2.5,87.694,34.341,34.341,0,0,1,.364,76.142C.061,69.584,0,67.617,0,51s.067-18.577.361-25.14A34.534,34.534,0,0,1,2.5,14.312,19.4,19.4,0,0,1,7.154,7.154,19.206,19.206,0,0,1,14.309,2.5,34.341,34.341,0,0,1,25.862.361C32.422.061,34.392,0,51,0s18.577.067,25.14.361A34.534,34.534,0,0,1,87.691,2.5a19.254,19.254,0,0,1,7.154,4.653A19.267,19.267,0,0,1,99.5,14.309a34.341,34.341,0,0,1,2.14,11.553c.3,6.563.361,8.528.361,25.14s-.061,18.577-.361,25.14A34.5,34.5,0,0,1,99.5,87.694,20.6,20.6,0,0,1,87.691,99.5a34.342,34.342,0,0,1-11.553,2.14c-6.557.3-8.528.361-25.14.361s-18.577-.058-25.134-.361" data-name="Path 17"></path><path fill="#fff" d="M461.114,477.413a12.631,12.631,0,1,1,12.629,12.632,12.631,12.631,0,0,1-12.629-12.632m-6.829,0a19.458,19.458,0,1,0,19.458-19.458,19.457,19.457,0,0,0-19.458,19.458m35.139-20.229a4.547,4.547,0,1,0,4.549-4.545h0a4.549,4.549,0,0,0-4.547,4.545m-30.99,51.074a20.943,20.943,0,0,1-7.037-1.3,12.547,12.547,0,0,1-7.193-7.19,20.923,20.923,0,0,1-1.3-7.037c-.184-3.994-.22-5.194-.22-15.313s.04-11.316.22-15.314a21.082,21.082,0,0,1,1.3-7.037,12.54,12.54,0,0,1,7.193-7.193,20.924,20.924,0,0,1,7.037-1.3c3.994-.184,5.194-.22,15.309-.22s11.316.039,15.314.221a21.082,21.082,0,0,1,7.037,1.3,12.541,12.541,0,0,1,7.193,7.193,20.926,20.926,0,0,1,1.3,7.037c.184,4,.22,5.194.22,15.314s-.037,11.316-.22,15.314a21.023,21.023,0,0,1-1.3,7.037,12.547,12.547,0,0,1-7.193,7.19,20.925,20.925,0,0,1-7.037,1.3c-3.994.184-5.194.22-15.314.22s-11.316-.037-15.309-.22m-.314-68.509a27.786,27.786,0,0,0-9.2,1.76,19.373,19.373,0,0,0-11.083,11.083,27.794,27.794,0,0,0-1.76,9.2c-.187,4.04-.229,5.332-.229,15.623s.043,11.582.229,15.623a27.793,27.793,0,0,0,1.76,9.2,19.374,19.374,0,0,0,11.083,11.083,27.813,27.813,0,0,0,9.2,1.76c4.042.184,5.332.229,15.623.229s11.582-.043,15.623-.229a27.8,27.8,0,0,0,9.2-1.76,19.374,19.374,0,0,0,11.083-11.083,27.716,27.716,0,0,0,1.76-9.2c.184-4.043.226-5.332.226-15.623s-.043-11.582-.226-15.623a27.786,27.786,0,0,0-1.76-9.2,19.379,19.379,0,0,0-11.08-11.083,27.748,27.748,0,0,0-9.2-1.76c-4.041-.185-5.332-.229-15.621-.229s-11.583.043-15.626.229" data-name="Path 18" transform="translate(-422.637 -426.196)"></path></svg>
+                        </a>
+
+                        <!-- youtube -->
+                        <a href="https://youtube.com/@tutorialgame6819" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-secondary hover:border-primary hover:bg-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16" id="youtube"><g fill-rule="evenodd" clip-rule="evenodd"><path fill="#F44336" d="M15.32 4.06c-.434-.772-.905-.914-1.864-.968C12.498 3.027 10.089 3 8.002 3c-2.091 0-4.501.027-5.458.091-.957.055-1.429.196-1.867.969C.23 4.831 0 6.159 0 8.497v.008c0 2.328.23 3.666.677 4.429.438.772.909.912 1.866.977.958.056 3.368.089 5.459.089 2.087 0 4.496-.033 5.455-.088.959-.065 1.43-.205 1.864-.977.451-.763.679-2.101.679-4.429v-.008c0-2.339-.228-3.667-.68-4.438z"></path><path fill="#FAFAFA" d="M6 11.5v-6l5 3z"></path></g></svg>
+                        </a>
+
+                        <!-- treads -->
+                        <a href="https://www.threads.net/@rafli6373" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-secondary hover:border-primary hover:bg-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" aria-label="Threads" viewBox="0 0 192 192" id="threads"><path d="M141.537 88.9883C140.71 88.5919 139.87 88.2104 139.019 87.8451C137.537 60.5382 122.616 44.905 97.5619 44.745C97.4484 44.7443 97.3355 44.7443 97.222 44.7443C82.2364 44.7443 69.7731 51.1409 62.102 62.7807L75.881 72.2328C81.6116 63.5383 90.6052 61.6848 97.2286 61.6848C97.3051 61.6848 97.3819 61.6848 97.4576 61.6855C105.707 61.7381 111.932 64.1366 115.961 68.814C118.893 72.2193 120.854 76.925 121.825 82.8638C114.511 81.6207 106.601 81.2385 98.145 81.7233C74.3247 83.0954 59.0111 96.9879 60.0396 116.292C60.5615 126.084 65.4397 134.508 73.775 140.011C80.8224 144.663 89.899 146.938 99.3323 146.423C111.79 145.74 121.563 140.987 128.381 132.296C133.559 125.696 136.834 117.143 138.28 106.366C144.217 109.949 148.617 114.664 151.047 120.332C155.179 129.967 155.42 145.8 142.501 158.708C131.182 170.016 117.576 174.908 97.0135 175.059C74.2042 174.89 56.9538 167.575 45.7381 153.317C35.2355 139.966 29.8077 120.682 29.6052 96C29.8077 71.3178 35.2355 52.0336 45.7381 38.6827C56.9538 24.4249 74.2039 17.11 97.0132 16.9405C119.988 17.1113 137.539 24.4614 149.184 38.788C154.894 45.8136 159.199 54.6488 162.037 64.9503L178.184 60.6422C174.744 47.9622 169.331 37.0357 161.965 27.974C147.036 9.60668 125.202 0.195148 97.0695 0H96.9569C68.8816 0.19447 47.2921 9.6418 32.7883 28.0793C19.8819 44.4864 13.2244 67.3157 13.0007 95.9325L13 96L13.0007 96.0675C13.2244 124.684 19.8819 147.514 32.7883 163.921C47.2921 182.358 68.8816 191.806 96.9569 192H97.0695C122.03 191.827 139.624 185.292 154.118 170.811C173.081 151.866 172.51 128.119 166.26 113.541C161.776 103.087 153.227 94.5962 141.537 88.9883ZM98.4405 129.507C88.0005 130.095 77.1544 125.409 76.6196 115.372C76.2232 107.93 81.9158 99.626 99.0812 98.6368C101.047 98.5234 102.976 98.468 104.871 98.468C111.106 98.468 116.939 99.0737 122.242 100.233C120.264 124.935 108.662 128.946 98.4405 129.507Z" class="x19hqcy"></path></svg>
+                        </a>
+
+                        <!-- facebook -->
+                        <a href="https://web.facebook.com/rafli.siregar.790" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-secondary hover:border-primary hover:bg-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" id="facebook"><path d="M13 24.002h-3a.5.5 0 0 1-.5-.5v-10.5H6a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5h3.5v-3.5c0-3.033 2.468-5.5 5.5-5.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3c-.827 0-1.5.673-1.5 1.5v3.5H18c.161 0 .312.077.405.208.095.13.12.298.069.451l-1 3a.501.501 0 0 1-.475.342h-3.5v10.5a.498.498 0 0 1-.499.499zm-2.5-1h2v-10.5a.5.5 0 0 1 .5-.5h3.64l.667-2H13a.5.5 0 0 1-.5-.5v-4c0-1.378 1.121-2.5 2.5-2.5h2.5v-2H15a4.505 4.505 0 0 0-4.5 4.5v4a.5.5 0 0 1-.5.5H6.5v2H10a.5.5 0 0 1 .5.5v10.5z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+    <script src="src/script.js"></script>
+
+    <footer class="bg-blue-500 py-4 text-white text-center">
+        <p>&copy; 2024 Rafli Hasyim</p>
+      </footer>
+</body>
+</html>
