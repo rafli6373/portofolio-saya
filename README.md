@@ -1,3 +1,3 @@
 # portofolio-saya
 
-![Repository Banner]
+![Repository Banner] (portofolio.PNG)
